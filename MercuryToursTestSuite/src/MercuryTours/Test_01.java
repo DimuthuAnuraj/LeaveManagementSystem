@@ -47,11 +47,15 @@ public class Test_01 {
 	}
 
 	@Test(dependsOnMethods = {"clickRegistration"})
-	public void UserRegistration() {
+	
+	//Parsing parameters from xml file,rather than hardcoding here
+	@Parameters ({"username","password","confirmpassword"})
+	
+	public void UserRegistration(String username,String password,String confirmpassword) {
 		//System.out.println("Click User Registration Method");
-		driver.findElement(By.name(txtEmail)).sendKeys("tstUser");
-		driver.findElement(By.name(txtPassword)).sendKeys("123456");
-		driver.findElement(By.name(txtConfirmPassword)).sendKeys("123456");
+		driver.findElement(By.name(txtEmail)).sendKeys(username);
+		driver.findElement(By.name(txtPassword)).sendKeys(password);
+		driver.findElement(By.name(txtConfirmPassword)).sendKeys(confirmpassword);
 		driver.findElement(By.name(submitButton)).click();
 
 		System.out.println("--------------Xpath Output-------------");

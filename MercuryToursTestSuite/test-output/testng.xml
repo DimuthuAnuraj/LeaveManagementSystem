@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mercurytests">
+<test name="some test">
+<parameter name = "username" value = "Dimuthu Anuraj"></parameter>
+<parameter name = "password" value = "1234"></parameter>
+<parameter name = "confirmpasswrod" value = "1234"></parameter>
+
+<classes>
+<class name ="MercuryTours"></class>
+</classes>
+</test>
+</suite>
