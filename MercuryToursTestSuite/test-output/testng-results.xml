@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3145" started-at="2018-09-23T10:18:56Z" finished-at="2018-09-23T10:18:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3145" started-at="2018-09-23T10:18:56Z" finished-at="2018-09-23T10:18:59Z">
+      <class name="MercuryTours.Test_01">
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:MercuryTours.Test_01@55f3ddb1]" name="setupWebDriver" is-config="true" duration-ms="5370" started-at="2018-09-23T10:18:50Z" finished-at="2018-09-23T10:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="clickRegistration()[pri:0, instance:MercuryTours.Test_01@55f3ddb1]" name="clickRegistration" duration-ms="1007" started-at="2018-09-23T10:18:56Z" finished-at="2018-09-23T10:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegistration -->
+        <test-method status="PASS" signature="UserRegistration()[pri:0, instance:MercuryTours.Test_01@55f3ddb1]" name="UserRegistration" duration-ms="2118" started-at="2018-09-23T10:18:57Z" depends-on-methods="MercuryTours.Test_01.clickRegistration" finished-at="2018-09-23T10:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:MercuryTours.Test_01@55f3ddb1]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-09-23T10:18:59Z" finished-at="2018-09-23T10:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- MercuryTours.Test_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
